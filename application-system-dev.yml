@@ -1,0 +1,13 @@
+server:
+  port: 9001
+
+
+spring:
+  application:
+    name: SYSTEM-SERVICE
+  datasource:
+    url: jdbc:mysql://rm-bp16730aq4j29ys9y5o.mysql.rds.aliyuncs.com:3306/lgh-system?useUnicode=true&useSSL=false&characterEncoding=utf8&serverTimezone=GMT%2B8
+lgh:
+  swagger:
+    title: 系统管理服务
+    description: 系统管理服务接口文档
